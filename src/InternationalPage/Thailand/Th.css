@@ -1,0 +1,41 @@
+.thailand-topimg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.thailand-topimg img{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.thailand-toptext{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2vw;
+}
+
+.thailand-toptext a{
+    color: yellow;
+    font-weight: 700;
+    font-size: 1.3vw;
+}
+
+.th-head{
+    text-align: center;
+    padding: 2rem;
+}
+
+.tour{
+    text-align: center;
+    padding: 2vw;
+}
+
+button :hover{
+    background-color: green;
+    color: white;
+}

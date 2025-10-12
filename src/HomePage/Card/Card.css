@@ -1,0 +1,45 @@
+.home-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.home-card i{
+    font-weight: 900;
+    font-size: 3vw;
+    color: green;
+}
+.home-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.home-card:hover {
+    transform: translateY(-5px);
+}
+
+.home-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+
+.home-card h3 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.home-card p {
+    font-size: 0.95rem;
+    color: #444;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

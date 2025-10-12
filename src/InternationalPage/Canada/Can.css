@@ -1,0 +1,30 @@
+.canada-topimg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.canada-topimg img{
+    width: 100%;
+    height: 70vh;
+}
+
+.canada-toptext{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 2vw;
+}
+
+.canada-toptext a{
+    color: yellow;
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+
+.head{
+    text-align: center;
+    padding: 2vw;
+}

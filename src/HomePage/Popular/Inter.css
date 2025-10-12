@@ -1,0 +1,77 @@
+.popular-inter-content {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.popular-inter-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pinter-imgPart1 {
+    flex: 2;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pinter-imgPart2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pinter-imgPart2 .img1,
+.pinter-imgPart2 .img2 {
+    height: 50%;
+}
+
+
+
+.pinter-btn {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pinter-btn button{
+    background-color: rgb(6, 6, 71);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 990px) {
+    .popular-inter-content{
+        flex-direction: column;
+    }
+
+    .pinter-imgPart1{
+        flex-direction: column;
+    }
+
+    .pinter-imgPart2 .img1 , .img2{
+        flex-direction: column;
+    }
+}

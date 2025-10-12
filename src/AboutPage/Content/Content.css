@@ -1,0 +1,68 @@
+
+
+.aboutuspage-content {
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.aboutuspage-content h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.aboutuspage-content p {
+    font-size: 1.25rem;
+    margin: 1vw;
+    text-align: center;
+    padding: 0 9vw 0 9vw;
+}
+
+.aboutuspage-content span{
+    color: crimson;
+    font-weight: 900;
+}
+
+.aboutus-list{
+    display: flex;
+    justify-content: center;
+    gap: 20vw;
+}
+
+.aboutus-list ul{
+    list-style: none;
+    margin: 30px 0;
+}
+
+.aboutus-list ul li:hover{
+    color: black;
+}
+
+.aboutus-list li{
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.aboutus-client {
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.aboutus-client h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.aboutus-client p {
+    font-size: 1.25rem;
+    margin: 1vw;
+    text-align: center;
+    padding: 0 9vw 0 9vw;
+}
+
+@media (max-width: 990px) {
+  .aboutus-list{
+    flex-direction: column;
+    gap: 0;
+  }
+}

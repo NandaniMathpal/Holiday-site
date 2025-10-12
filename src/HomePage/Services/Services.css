@@ -1,0 +1,14 @@
+.content {
+    text-align: center;
+    margin: 2vw 0 1vw 0;
+    font-family: "Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.content h2 {
+    font-size: 1.7rem;
+    margin: 2vw 0 1vw 0;
+}
+
+.content p {
+    font-size: 1.3rem;
+}

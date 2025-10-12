@@ -1,0 +1,13 @@
+.visit{
+    text-align: center;
+    padding: 3vw;
+}
+
+.visit h2{
+    color: crimson;
+    margin-bottom: 2vw;
+}
+
+.visit p{
+    font-size: 1.3rem;
+}

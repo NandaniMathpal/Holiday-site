@@ -1,0 +1,25 @@
+.west-topimg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.west-topimg img{
+    width: 100%;
+    height: 70vh;
+}
+
+.west-toptext{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+}
+
+.west-toptext a{
+    color: yellow;
+    font-weight: 700;
+    font-size: 1.3vw;
+}

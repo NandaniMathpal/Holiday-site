@@ -1,0 +1,58 @@
+.box{
+    width: 40vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.insidebox{
+    width: 30vw;
+    text-align: center;
+    padding: 2vw;
+    line-height:8vw;
+}
+
+.insidebox h2{
+    font-size: 3vw;
+    color: white;
+}
+
+.insidebox input{
+    border-radius: 6px;
+    padding: 0.7vw;
+    width: 100%;
+    font-size: 2vw;
+}
+
+.insidebox button{
+    border-radius: 6px;
+    padding: 0.7vw;
+    width: 100%;
+    border-radius: 6px;
+    background-color: rgb(96, 96, 212);
+    color: white;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+button:hover{
+    background-color: green;
+}
+
+@media (max-width: 990px) {
+
+    .insidebox{
+        line-height: 8vw;
+    }
+
+    .insidebox h2 input button{
+        font-size: 200px;
+    }
+
+    .box{
+        margin: 2vw;
+    }
+}

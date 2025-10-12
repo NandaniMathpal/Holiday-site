@@ -1,0 +1,14 @@
+.interpack-topimg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.interpack-topimg img{
+    width: 100%;
+    height: 70vh;
+}
+
+.head{
+    text-align: center;
+}

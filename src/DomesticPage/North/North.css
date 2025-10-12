@@ -1,0 +1,25 @@
+.north-topimg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.north-topimg img{
+    width: 100%;
+    height: 70vh;
+}
+
+.north-toptext{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2vw;
+}
+
+.north-toptext a{
+    font-weight: 700;
+    color: yellow;
+    font-size: 1.3vw;
+}

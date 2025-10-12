@@ -1,0 +1,31 @@
+.aboutuspage-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.aboutus-topimage img{
+    width: 100%;
+    height: 70vh;
+}
+
+.aboutus-topimage {
+    position: relative;
+}
+
+.aboutus-imgtext{
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+}
+
+.aboutus-imgtext a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: yellow;
+    font-weight: 700;
+    font-size: 1.3vw;
+}

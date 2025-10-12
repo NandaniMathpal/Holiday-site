@@ -1,0 +1,76 @@
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background:linear-gradient(to top, #d0cccc, #064e89);
+    color: white;
+    padding: 60px 20px 0 30px;
+    line-height: 1.4em;  
+}
+
+footer h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    padding: 40px 0;
+}
+
+footer ul li {
+    font-size: 17px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+li:hover {
+    color: rgb(229, 219, 30);
+}
+
+h3 a{
+    color: white;
+    text-decoration: none;
+}
+
+h3 a:hover{
+    text-decoration: underline;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: rgb(229, 219, 30)
+}
+
+.footer-aboutus li{
+    transition: transform 0.3s;
+}
+
+.footer-aboutus li:hover{
+    transform: translateY(-5px);
+}
+
+@media (max-width:990px) {
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+.poweredby{
+    color: black;
+    border-top: 1px solid black;
+    padding: 2vw;
+}
+
+.poweredby a{
+    text-decoration: none;
+}

@@ -1,0 +1,23 @@
+.contactpg-top{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.contactpg-top img{
+    width: 100%;
+    height: 70vh;
+}
+
+.contactpg-text{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.contactpg-text a{
+    color: yellow;
+    font-weight: 700;
+}

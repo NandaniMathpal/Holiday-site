@@ -1,0 +1,21 @@
+.th-images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.th-images img{
+    width: 30vw;
+}
+
+@media (max-width: 990px) {
+    .th-images img{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 1vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+}

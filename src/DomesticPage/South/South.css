@@ -1,0 +1,25 @@
+.south-topimg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.south-topimg img{
+    width: 100%;
+    height: 70vh;
+}
+
+.south-toptext{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 2vw;
+}
+
+.south-toptext a{
+    color: yellow;
+    font-weight: 700;
+    font-size: 1.3vw;
+}
