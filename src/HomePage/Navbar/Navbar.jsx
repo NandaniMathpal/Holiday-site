@@ -31,7 +31,7 @@ const Navbar = () => {
                 <li><Link to="/east">East</Link></li>
                 <li><Link to="/south">South</Link></li>
               </ul>
-            </li>run dev
+            </li>
             
 
             <li><Link>International<i className="ri-arrow-drop-down-line"></i>
